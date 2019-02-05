@@ -1,0 +1,23 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/root/.nvm/versions/node/v6.16.0/bin/node',
+1 verbose cli   '/root/.nvm/versions/node/v6.16.0/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   'server/' ]
+2 info using npm@3.10.10
+3 info using node@v6.16.0
+4 verbose stack Error: ENOENT: no such file or directory, open '/home/pi/sunil/full_stack_web_development_with_rpi3/sensor-project/full-stack-web-development-with-raspberrypi3/sensor-project/package.json'
+4 verbose stack     at Error (native)
+5 verbose cwd /home/pi/sunil/full_stack_web_development_with_rpi3/sensor-project/full-stack-web-development-with-raspberrypi3/sensor-project
+6 error Linux 4.14.90-v7+
+7 error argv "/root/.nvm/versions/node/v6.16.0/bin/node" "/root/.nvm/versions/node/v6.16.0/bin/npm" "start" "server/"
+8 error node v6.16.0
+9 error npm  v3.10.10
+10 error path /home/pi/sunil/full_stack_web_development_with_rpi3/sensor-project/full-stack-web-development-with-raspberrypi3/sensor-project/package.json
+11 error code ENOENT
+12 error errno -2
+13 error syscall open
+14 error enoent ENOENT: no such file or directory, open '/home/pi/sunil/full_stack_web_development_with_rpi3/sensor-project/full-stack-web-development-with-raspberrypi3/sensor-project/package.json'
+15 error enoent ENOENT: no such file or directory, open '/home/pi/sunil/full_stack_web_development_with_rpi3/sensor-project/full-stack-web-development-with-raspberrypi3/sensor-project/package.json'
+15 error enoent This is most likely not a problem with npm itself
+15 error enoent and is related to npm not being able to find a file.
+16 verbose exit [ -2, true ]
